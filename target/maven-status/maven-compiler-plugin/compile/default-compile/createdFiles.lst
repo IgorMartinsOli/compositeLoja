@@ -1,0 +1,5 @@
+com\mycompany\compositeloja\client.class
+com\mycompany\compositeloja\ProductLeaf.class
+com\mycompany\compositeloja\ProductComposite.class
+com\mycompany\compositeloja\ProductComponent.class
+com\mycompany\compositeloja\User.class

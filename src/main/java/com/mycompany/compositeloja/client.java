@@ -14,7 +14,7 @@ public class client {
         ProductLeaf smartphone = new ProductLeaf("smartphone", 1000);
         ProductLeaf tShirt = new ProductLeaf("tShirt", 55);
         ProductComposite productBox = new ProductComposite();
-        productBox.add(pen, smartphone, tShirt);
+        productBox.add(user, pen, smartphone, tShirt);
         System.out.println(productBox.getPrice());
     }
     

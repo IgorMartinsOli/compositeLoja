@@ -10,8 +10,34 @@ package com.mycompany.compositeloja;
  */
 public abstract class ProductComponent {
     public static User user;
+    private float price;
+    private String name;
     
-    public abstract void add(ProductComponent ...products);
+    public ProductComponent(String name, float price){
+        this.name = name;
+        this.price = price;
+    }
+    
+    public ProductComponent(){
+        
+    }
+    
+    public abstract void add(User user, ProductComponent ...products);
     public abstract void remove(ProductComponent product);
-    public abstract float getPrice();
+    
+    public float getPrice() {
+        return this.price;
+    }
+    
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

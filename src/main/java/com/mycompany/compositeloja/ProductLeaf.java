@@ -10,16 +10,11 @@ package com.mycompany.compositeloja;
  */
 public class ProductLeaf extends ProductComponent{
     public ProductLeaf(String name, float price){
-        super();
-    }
-    
-    @Override
-    public float getPrice() {
-        return this.getPrice();
+        super(name,price);
     }
 
     @Override
-    public void add(ProductComponent ...products) {
+    public void add(User user, ProductComponent ...products) {
         System.out.println("Isso fere a segregação da interface");
     }
 

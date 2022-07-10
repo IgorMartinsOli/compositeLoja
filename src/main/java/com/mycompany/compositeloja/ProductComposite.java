@@ -14,8 +14,7 @@ import java.util.Arrays;
 public class ProductComposite extends ProductComponent {
     private final ArrayList<ProductComponent> children = new ArrayList<>();
 
-    public ProductComposite(){
-        
+    public ProductComposite(){   
     }
     
     public ProductComposite(String name, float price) {

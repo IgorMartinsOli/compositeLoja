@@ -18,8 +18,7 @@ public abstract class ProductComponent {
         this.price = price;
     }
     
-    public ProductComponent(){
-        
+    public ProductComponent(){   
     }
     
     public abstract void add(User user, ProductComponent ...products);
